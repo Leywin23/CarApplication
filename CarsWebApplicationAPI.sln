@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars.API", "CarsWebApplicationAPI\Cars.API.csproj", "{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BCD87C60-6120-4DFE-970B-C156C4323687} = {BCD87C60-6120-4DFE-970B-C156C4323687}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars.Application", "Cars.Application\Cars.Application.csproj", "{BCD87C60-6120-4DFE-970B-C156C4323687}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D98B3CFC-22DE-4FB5-A79C-3CF012B52ECD} = {D98B3CFC-22DE-4FB5-A79C-3CF012B52ECD}
+		{FA91E87C-ACC7-49E9-9112-55C62420F1CC} = {FA91E87C-ACC7-49E9-9112-55C62420F1CC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars.Domain", "Cars.Domain\Cars.Domain.csproj", "{FA91E87C-ACC7-49E9-9112-55C62420F1CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars.Infrastructure", "Cars.Infrastructure\Cars.Infrastructure.csproj", "{D98B3CFC-22DE-4FB5-A79C-3CF012B52ECD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FA91E87C-ACC7-49E9-9112-55C62420F1CC} = {FA91E87C-ACC7-49E9-9112-55C62420F1CC}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD87C60-6120-4DFE-970B-C156C4323687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD87C60-6120-4DFE-970B-C156C4323687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD87C60-6120-4DFE-970B-C156C4323687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD87C60-6120-4DFE-970B-C156C4323687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA91E87C-ACC7-49E9-9112-55C62420F1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA91E87C-ACC7-49E9-9112-55C62420F1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA91E87C-ACC7-49E9-9112-55C62420F1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA91E87C-ACC7-49E9-9112-55C62420F1CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98B3CFC-22DE-4FB5-A79C-3CF012B52ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98B3CFC-22DE-4FB5-A79C-3CF012B52ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98B3CFC-22DE-4FB5-A79C-3CF012B52ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98B3CFC-22DE-4FB5-A79C-3CF012B52ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE80B740-3155-48C0-9321-81C6DE039D83}
+	EndGlobalSection
+EndGlobal

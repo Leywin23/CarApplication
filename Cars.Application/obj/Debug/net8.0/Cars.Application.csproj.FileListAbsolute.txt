@@ -1,0 +1,17 @@
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\bin\Debug\net8.0\Cars.Application.deps.json
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\bin\Debug\net8.0\Cars.Application.dll
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\bin\Debug\net8.0\Cars.Application.pdb
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\obj\Debug\net8.0\Cars.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\obj\Debug\net8.0\Cars.Application.AssemblyInfoInputs.cache
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\obj\Debug\net8.0\Cars.Application.AssemblyInfo.cs
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\obj\Debug\net8.0\Cars.Application.csproj.CoreCompileInputs.cache
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\obj\Debug\net8.0\Cars.Application.dll
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\obj\Debug\net8.0\refint\Cars.Application.dll
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\obj\Debug\net8.0\Cars.Application.pdb
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\obj\Debug\net8.0\ref\Cars.Application.dll
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\bin\Debug\net8.0\Cars.Domain.dll
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\bin\Debug\net8.0\Cars.Infrastructure.dll
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\bin\Debug\net8.0\Cars.Domain.pdb
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\bin\Debug\net8.0\Cars.Infrastructure.pdb
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\obj\Debug\net8.0\Cars.Application.csproj.AssemblyReference.cache
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Cars.Application\obj\Debug\net8.0\Cars.App.3F253AC0.Up2Date
