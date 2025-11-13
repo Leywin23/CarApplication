@@ -16,37 +16,68 @@ namespace Cars.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetCarById(Guid id, CancellationToken ct)
         {
-            var car = await Mediator.Send(new DetailsCars.Query { Id = id }, ct);
+            var result= await Mediator.Send(new DetailsCars.Query { Id = id }, ct);
 
-            if (car is null)
+            if(result == null || result.Value ==null)
                 return NotFound();
 
-            return Ok(car);
+            if (result.IsSuccess)
+                return Ok(result.Value);
+
+            return BadRequest(result.Error);
         }
 
         [HttpGet]
         public async Task<IActionResult> GetAllCars()
         {
-            var cars = await Mediator.Send(new ListCars.Query());
-            return Ok(cars);
+            var result = await Mediator.Send(new ListCars.Query());
+
+            if (result == null || result.Value == null)
+                return NotFound();
+
+            if (result.IsSuccess)
+                return Ok(result.Value);
+
+            return BadRequest(result.Error);
         }
         [HttpPost]
         public async Task<IActionResult> CreateCar([FromBody] CreateCar.Command command)
         {
-            var car = await Mediator.Send(command);
-            return Ok(car);
+            var result = await Mediator.Send(command);
+
+            if (result == null || result.Value == null)
+                return NotFound();
+
+            if (result.IsSuccess)
+                return Ok(result.Value);
+
+            return BadRequest(result.Error);
         }
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCar(Guid id)
         {
-            var car = await Mediator.Send(new DeleteCar.Command { Id = id });
-            return Ok(car);
+            var result = await Mediator.Send(new DeleteCar.Command { Id = id });
+
+            if (result == null || result.Value == null)
+                return NotFound();
+
+            if (result.IsSuccess)
+                return Ok(result.Value);
+
+            return BadRequest(result.Error);
         }
         [HttpPut]
-        public async Task<IActionResult> UpdateCar(EditCar.UpdateCarCommand command)
+        public async Task<IActionResult> UpdateCar([FromBody] EditCar.UpdateCarCommand command, CancellationToken ct)
         {
-            var car = await Mediator.Send(command);
-            return Ok(car);
+            var result = await Mediator.Send(command);
+
+            if (result == null || result.Value == null)
+                return NotFound();
+
+            if (result.IsSuccess)
+                return Ok(result.Value);
+
+            return BadRequest(result.Error);
         }
     }
 }

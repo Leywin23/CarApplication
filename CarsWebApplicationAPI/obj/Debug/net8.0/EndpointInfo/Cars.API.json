@@ -133,57 +133,7 @@
         "type": "integer",
         "format": "int32"
       },
-      "Command": {
-        "type": "object",
-        "properties": {
-          "brand": {
-            "type": "string",
-            "nullable": true
-          },
-          "model": {
-            "type": "string",
-            "nullable": true
-          },
-          "doorsNumber": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "luggageCapacity": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "engineCapacity": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "fuelType": {
-            "$ref": "#/components/schemas/FuelType"
-          },
-          "productionDate": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "carFuelConsumption": {
-            "type": "number",
-            "format": "double"
-          },
-          "bodyType": {
-            "$ref": "#/components/schemas/BodyType"
-          }
-        },
-        "additionalProperties": false
-      },
-      "FuelType": {
-        "enum": [
-          0,
-          1,
-          2,
-          3
-        ],
-        "type": "integer",
-        "format": "int32"
-      },
-      "UpdateCarCommand": {
+      "Car": {
         "type": "object",
         "properties": {
           "id": {
@@ -223,6 +173,34 @@
           },
           "bodyType": {
             "$ref": "#/components/schemas/BodyType"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Command": {
+        "type": "object",
+        "properties": {
+          "car": {
+            "$ref": "#/components/schemas/Car"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FuelType": {
+        "enum": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "UpdateCarCommand": {
+        "type": "object",
+        "properties": {
+          "car": {
+            "$ref": "#/components/schemas/Car"
           }
         },
         "additionalProperties": false

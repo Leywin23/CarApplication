@@ -1,6 +1,9 @@
 
 using Cars.Application.Cars;
 using Cars.Infrastructure.Data;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
 namespace CarsWebApplicationAPI
@@ -32,6 +35,9 @@ namespace CarsWebApplicationAPI
 
             builder.Services.AddMediatR(cfg =>
             cfg.RegisterServicesFromAssembly(typeof(ListCars.Handler).Assembly));
+
+            builder.Services.AddFluentValidationAutoValidation();
+            builder.Services.AddValidatorsFromAssemblyContaining<CreateCar>();
 
             var app = builder.Build();
 

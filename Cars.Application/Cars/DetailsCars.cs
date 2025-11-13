@@ -11,21 +11,22 @@ namespace Cars.Application.Cars
 {
     public class DetailsCars
     {
-        public class Query : IRequest<Car>
+        public class Query : IRequest<Result<Car>>
         {
             public Guid Id { get; set; }
         }
 
-        public class Handler : IRequestHandler<Query,Car> {
+        public class Handler : IRequestHandler<Query, Result<Car>> {
             private readonly DataContext _context;
             public Handler(DataContext context)
             {
                 _context = context;
             }
 
-            public async Task<Car> Handle(Query request, CancellationToken cancellationToken)
+            public async Task<Result<Car>> Handle(Query request, CancellationToken cancellationToken)
             {
-                return await _context.Cars.FindAsync(request.Id);
+                var car = await _context.Cars.FindAsync(request.Id);
+                return Result<Car>.Success(car);
             }
         }
     }

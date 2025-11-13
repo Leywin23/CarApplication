@@ -1,5 +1,6 @@
 ﻿using Cars.Domain.Models;
 using Cars.Infrastructure.Data;
+using FluentValidation;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -13,20 +14,12 @@ namespace Cars.Application.Cars
 {
     public class CreateCar
     {
-        public class Command: IRequest<Car>
+        public class Command: IRequest<Result<Car>>
         {
-            public string Brand { get; set; }
-            public string Model { get; set; }
-            public int DoorsNumber { get; set; }
-            public int LuggageCapacity { get; set; }
-            public int EngineCapacity { get; set; }
-            public FuelType FuelType { get; set; }
-            public DateTime ProductionDate { get; set; }
-            public double CarFuelConsumption { get; set; }
-            public BodyType BodyType { get; set; }
+            public Car Car { get; set; } = default!;
         }
 
-        public class Handler : IRequestHandler<Command, Car>
+        public class Handler : IRequestHandler<Command, Result<Car>>
         {
             private readonly DataContext _context;
             public Handler(DataContext context)
@@ -34,27 +27,25 @@ namespace Cars.Application.Cars
                 _context = context;
             }
 
-            public async Task<Car> Handle(Command request, CancellationToken ct)
+            public async Task<Result<Car>> Handle(Command request, CancellationToken ct)
             {
-                var car = new Car
-                {
-                    Id = Guid.NewGuid(),
-                    Brand = request.Brand,
-                    Model = request.Model,
-                    DoorsNumber = request.DoorsNumber,
-                    LuggageCapacity = request.LuggageCapacity,
-                    EngineCapacity = request.EngineCapacity,
-                    FuelType = request.FuelType,
-                    ProductionDate = request.ProductionDate,
-                    CarFuelConsumption = request.CarFuelConsumption,
-                    BodyType = request.BodyType
-                };
+                _context.Cars.Add(request.Car);
+                var success = await _context.SaveChangesAsync(ct) > 0;
 
-                _context.Cars.Add(car);
-                await _context.SaveChangesAsync(ct);
+                if (!success)
+                    return Result<Car>.Failure("Nie udało sie zapisać samochodu do bazy danych");
 
-                return car; 
+                return Result<Car>.Success(request.Car);
             }
         }
+
+        public class CommandValidator : AbstractValidator<Command>
+        {
+            public CommandValidator() 
+            {
+                RuleFor(x => x.Car).SetValidator(new CarValidator());
+            }
+        }
+
     }
 }

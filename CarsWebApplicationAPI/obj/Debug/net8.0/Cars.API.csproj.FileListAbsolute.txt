@@ -171,3 +171,7 @@ C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\CarsWebApplicationAPI\bin\De
 C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\CarsWebApplicationAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\CarsWebApplicationAPI\bin\Debug\net8.0\Cars.Application.dll
 C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\CarsWebApplicationAPI\bin\Debug\net8.0\Cars.Application.pdb
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\CarsWebApplicationAPI\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\CarsWebApplicationAPI\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\CarsWebApplicationAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\CarsWebApplicationAPI\obj\Debug\net8.0\Cars.API.sourcelink.json
