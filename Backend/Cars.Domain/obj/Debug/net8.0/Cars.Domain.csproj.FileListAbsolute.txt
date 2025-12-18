@@ -21,3 +21,4 @@ C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Backend\Cars.Domain\obj\Debu
 C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Backend\Cars.Domain\obj\Debug\net8.0\refint\Cars.Domain.dll
 C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Backend\Cars.Domain\obj\Debug\net8.0\Cars.Domain.pdb
 C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Backend\Cars.Domain\obj\Debug\net8.0\ref\Cars.Domain.dll
+C:\Users\DESKTOP\source\repos\CarsWebApplicationAPI\Backend\Cars.Domain\obj\Debug\net8.0\Cars.Domain.csproj.AssemblyReference.cache

@@ -2,6 +2,7 @@
 using Cars.Domain.Models;
 using Cars.Infrastructure.Data;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -26,7 +27,7 @@ namespace Cars.API.Controllers
 
             return BadRequest(result.Error);
         }
-
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetAllCars()
         {
@@ -40,6 +41,7 @@ namespace Cars.API.Controllers
 
             return BadRequest(result.Error);
         }
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> CreateCar([FromBody] CreateCar.Command command)
         {
@@ -53,6 +55,7 @@ namespace Cars.API.Controllers
 
             return BadRequest(result.Error);
         }
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteCar(Guid id)
         {
@@ -66,6 +69,7 @@ namespace Cars.API.Controllers
 
             return BadRequest(result.Error);
         }
+        [Authorize]
         [HttpPut]
         public async Task<IActionResult> UpdateCar([FromBody] EditCar.UpdateCarCommand command, CancellationToken ct)
         {

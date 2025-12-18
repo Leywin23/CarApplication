@@ -1,7 +1,10 @@
-﻿using Cars.Application.Cars;
+﻿using Cars.API;
+using Cars.Application.Cars;
+using Cars.Domain.Models;
 using Cars.Infrastructure.Data;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace CarsWebApplicationAPI
@@ -20,6 +23,8 @@ namespace CarsWebApplicationAPI
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddIdentityServices(builder.Configuration);
+            builder.Services.AddScoped<TokenService>();
 
             builder.Services.AddCors(opt =>
             {
@@ -50,6 +55,7 @@ namespace CarsWebApplicationAPI
 
             app.UseCors("CorsPolicy");
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllers();
@@ -60,8 +66,10 @@ namespace CarsWebApplicationAPI
             try
             {
                 var context = services.GetRequiredService<DataContext>();
+                var userManager = services.GetRequiredService<UserManager<AppUser>>();
+
                 await context.Database.MigrateAsync();
-                await Seed.SeedData(context);
+                await Seed.SeedData(context, userManager);
             }
             catch (Exception ex)
             {

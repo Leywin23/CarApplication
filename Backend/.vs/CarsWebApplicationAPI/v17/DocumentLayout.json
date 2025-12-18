@@ -3,12 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\cars.application\\carvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\carvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\carswebapplicationapi\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|solutionrelative:carswebapplicationapi\\controllers\\carscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\cars.application\\cars\\createcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\createcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\carswebapplicationapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|solutionrelative:carswebapplicationapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\carswebapplicationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|solutionrelative:carswebapplicationapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\cars.application\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\cars.application\\cars\\listcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\listcars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\cars.application\\cars\\editcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\editcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\cars.application\\cars\\detailscars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\detailscars.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\cars.application\\cars\\deletecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCD87C60-6120-4DFE-970B-C156C4323687}|Cars.Application\\Cars.Application.csproj|solutionrelative:cars.application\\cars\\deletecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA91E87C-ACC7-49E9-9112-55C62420F1CC}|Cars.Domain\\Cars.Domain.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\cars.domain\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA91E87C-ACC7-49E9-9112-55C62420F1CC}|Cars.Domain\\Cars.Domain.csproj|solutionrelative:cars.domain\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA91E87C-ACC7-49E9-9112-55C62420F1CC}|Cars.Domain\\Cars.Domain.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\cars.domain\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA91E87C-ACC7-49E9-9112-55C62420F1CC}|Cars.Domain\\Cars.Domain.csproj|solutionrelative:cars.domain\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98B3CFC-22DE-4FB5-A79C-3CF012B52ECD}|Cars.Infrastructure\\Cars.Infrastructure.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\cars.infrastructure\\data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98B3CFC-22DE-4FB5-A79C-3CF012B52ECD}|Cars.Infrastructure\\Cars.Infrastructure.csproj|solutionrelative:cars.infrastructure\\data\\seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\carswebapplicationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|solutionrelative:carswebapplicationapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\carswebapplicationapi\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|solutionrelative:carswebapplicationapi\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\carswebapplicationapi\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|solutionrelative:carswebapplicationapi\\identityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\carswebapplicationapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|solutionrelative:carswebapplicationapi\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\carswebapplicationapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|solutionrelative:carswebapplicationapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98B3CFC-22DE-4FB5-A79C-3CF012B52ECD}|Cars.Infrastructure\\Cars.Infrastructure.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\cars.infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98B3CFC-22DE-4FB5-A79C-3CF012B52ECD}|Cars.Infrastructure\\Cars.Infrastructure.csproj|solutionrelative:cars.infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\carswebapplicationapi\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|solutionrelative:carswebapplicationapi\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\carswebapplicationapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|solutionrelative:carswebapplicationapi\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\carswebapplicationapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938CCCE9-B8E6-4FF9-A1A7-9D24DA059B88}|CarsWebApplicationAPI\\Cars.API.csproj|solutionrelative:carswebapplicationapi\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA91E87C-ACC7-49E9-9112-55C62420F1CC}|Cars.Domain\\Cars.Domain.csproj|c:\\users\\desktop\\source\\repos\\carswebapplicationapi\\backend\\cars.domain\\cars.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FA91E87C-ACC7-49E9-9112-55C62420F1CC}|Cars.Domain\\Cars.Domain.csproj|solutionrelative:cars.domain\\cars.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,8 +101,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 246,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,27 +113,316 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CarValidator.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\CarValidator.cs",
+              "RelativeDocumentMoniker": "Cars.Application\\CarValidator.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\CarValidator.cs",
+              "RelativeToolTip": "Cars.Application\\CarValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:06:00.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ListCars.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\Cars\\ListCars.cs",
+              "RelativeDocumentMoniker": "Cars.Application\\Cars\\ListCars.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\Cars\\ListCars.cs",
+              "RelativeToolTip": "Cars.Application\\Cars\\ListCars.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvyIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:05:55.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EditCar.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\Cars\\EditCar.cs",
+              "RelativeDocumentMoniker": "Cars.Application\\Cars\\EditCar.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\Cars\\EditCar.cs",
+              "RelativeToolTip": "Cars.Application\\Cars\\EditCar.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAiwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:05:49.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DetailsCars.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\Cars\\DetailsCars.cs",
+              "RelativeDocumentMoniker": "Cars.Application\\Cars\\DetailsCars.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\Cars\\DetailsCars.cs",
+              "RelativeToolTip": "Cars.Application\\Cars\\DetailsCars.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:05:44.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeleteCar.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\Cars\\DeleteCar.cs",
+              "RelativeDocumentMoniker": "Cars.Application\\Cars\\DeleteCar.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\Cars\\DeleteCar.cs",
+              "RelativeToolTip": "Cars.Application\\Cars\\DeleteCar.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:05:39.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Domain\\Models\\Car.cs",
+              "RelativeDocumentMoniker": "Cars.Domain\\Models\\Car.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Domain\\Models\\Car.cs",
+              "RelativeToolTip": "Cars.Domain\\Models\\Car.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:05:17.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateCar.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\Cars\\CreateCar.cs",
+              "RelativeDocumentMoniker": "Cars.Application\\Cars\\CreateCar.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\Cars\\CreateCar.cs",
+              "RelativeToolTip": "Cars.Application\\Cars\\CreateCar.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T12:05:03.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\TokenService.cs",
+              "RelativeDocumentMoniker": "CarsWebApplicationAPI\\TokenService.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\TokenService.cs",
+              "RelativeToolTip": "CarsWebApplicationAPI\\TokenService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCUAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:38:31.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "CarsWebApplicationAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\appsettings.json",
+              "RelativeToolTip": "CarsWebApplicationAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T11:19:26.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CarsWebApplicationAPI\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CarsWebApplicationAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T11:19:18.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseApiController.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Controllers\\BaseApiController.cs",
+              "RelativeDocumentMoniker": "CarsWebApplicationAPI\\Controllers\\BaseApiController.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Controllers\\BaseApiController.cs",
+              "RelativeToolTip": "CarsWebApplicationAPI\\Controllers\\BaseApiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:02:42.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "CarsWebApplicationAPI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "CarsWebApplicationAPI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:02:20.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "CarsWebApplicationAPI\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "CarsWebApplicationAPI\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:00:51.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "CarsWebApplicationAPI\\Dtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "CarsWebApplicationAPI\\Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:00:42.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "CarsWebApplicationAPI\\Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "CarsWebApplicationAPI\\Dtos\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T11:00:34.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Seed.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Infrastructure\\Data\\Seed.cs",
+              "RelativeDocumentMoniker": "Cars.Infrastructure\\Data\\Seed.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Infrastructure\\Data\\Seed.cs",
+              "RelativeToolTip": "Cars.Infrastructure\\Data\\Seed.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T10:49:41.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IdentityService.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\IdentityService.cs",
+              "RelativeDocumentMoniker": "CarsWebApplicationAPI\\IdentityService.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\IdentityService.cs",
+              "RelativeToolTip": "CarsWebApplicationAPI\\IdentityService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T10:38:27.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Infrastructure\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Cars.Infrastructure\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Infrastructure\\Data\\DataContext.cs",
+              "RelativeToolTip": "Cars.Infrastructure\\Data\\DataContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T10:25:15.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Cars.Domain",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Domain\\Cars.Domain.csproj",
+              "RelativeDocumentMoniker": "Cars.Domain\\Cars.Domain.csproj",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Domain\\Cars.Domain.csproj",
+              "RelativeToolTip": "Cars.Domain\\Cars.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-18T10:24:08.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Domain\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Cars.Domain\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Domain\\Models\\AppUser.cs",
+              "RelativeToolTip": "Cars.Domain\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T10:20:37.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\Result.cs",
+              "RelativeDocumentMoniker": "Cars.Application\\Result.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\Cars.Application\\Result.cs",
+              "RelativeToolTip": "Cars.Application\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T10:16:18.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CarsController.cs",
               "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Controllers\\CarsController.cs",
               "RelativeDocumentMoniker": "CarsWebApplicationAPI\\Controllers\\CarsController.cs",
               "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Controllers\\CarsController.cs",
               "RelativeToolTip": "CarsWebApplicationAPI\\Controllers\\CarsController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwEcAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAAAFQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T14:08:53.282Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Program.cs",
               "RelativeDocumentMoniker": "CarsWebApplicationAPI\\Program.cs",
               "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\CarsWebApplicationAPI\\Backend\\CarsWebApplicationAPI\\Program.cs",
               "RelativeToolTip": "CarsWebApplicationAPI\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswBgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-27T13:42:56.279Z",
               "EditorCaption": ""
